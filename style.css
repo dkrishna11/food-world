@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.top{
+    background-color: #35b8be;
+    position: relative;
+    top:0;
+    width: 100%;
+    height: 20px;
+}
+
+.top p{
+    position: absolute;
+    left:30%;
+    color: #3b5253;
+    font-size: 15px;
+    font-weight: 700;
+    top:3px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top:10px;
+    right: 15px;
+}
+
+.left img{
+    width:10%;
+}
+
+.right a{
+    padding: 10px;
+    text-decoration: none;
+    color: #35b8be;
+    font-size: 20px;
+}
+.right a:hover{
+    background-color: #35b8be;
+    color: black;
+    border-radius: 10px;
+}
+
+/* landpage` */
+
+.landpage{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f1f1;
+    clip-path: polygon(1% 12%, 100% 0, 100% 100%, 0 90%);
+}
+
+.landpage .landpage-left{
+    padding:80px;
+}
+
+.landpage .landpage-left h2{
+    max-width: 580px;
+    margin-bottom: 20px;
+    color: #08090a;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+}
+
+.landpage-left span{
+    color: #35b8be;
+}
+
+.landpage-left p{
+    margin-top:10px ;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+}
+
+.landpage-left button{
+    background-color: #35b8be;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.landpage-left button:hover{
+    background-color: #08090a;
+    color: white;
+}
+
+.landpage-left img{
+    display: block;
+    margin-top: 20px;
+}
+
+.landpage-right{
+   padding: 50px;
+}
+
+.landpage-right img{
+  width: 60vh;
+}
+
+/* ------products */
+
+.products{
+    clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 90%);
+}
+
+.products img{
+    width: 40vw;
+}
+
+/* ------------work----------- */
+
+.work{
+    margin: 50px;
+}
+
+.work h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #35b8be;
+    font-size: 55px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+.work-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+
+.work-container .images{
+    padding: 10px;
+    margin: 10px;
+}
+
+.work-container .images img{
+    width: 30vh;
+}
+
+.work-container .images h4{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.work-container .images p{
+    margin-top:10px ;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: lightblue;
+}
+
+/* -------------------MENU-------------- */
+.menu{
+    background-color: rgb(248, 249, 250);
+    clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 100%);
+}
+.menu .browse{
+    text-align: center;
+}
+
+.menu .browse h1{
+    color: #35b8be;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+}
+
+.menu .browse p{
+    color: lightblue;
+}
+
+.menu .browse button{
+    color: black;
+    width:120px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid rgb(52, 53, 53);
+    border-radius: 5px;
+    background-color: rgb(235, 241, 243);
+}
+
+.menu .browse #active{
+    background-color: #35b8be;
+}
+.menu-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "b-1 b-2"
+    "b-3 b-4"
+    "b-5 b-6";
+    grid-gap:20px;
+    padding: 20px;
+}
+.burger{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 9px -9px 21px -6px rgb(52, 53, 53);
+}
+
+.burger img{
+    width: 90px;
+    height: 70px;
+    border-radius: 5px;
+    position: relative;
+    top:30px;
+}
+.content{
+    padding: 18px;
+}
+
+.burger .c-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-1 h3{
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+}
+
+.c-1 p{
+    color: #35b8be;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+}
+
+.content > p{
+    color: #3b5253;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+}
+
+.content input{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.content button{
+    background-color: #35b8be;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------media ---------- */
+
+@media screen and (max-width:840px){
+    .navbar{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:540px){
+    .top{
+       display: none;
+    }
+    .navbar{
+        width:80vw;
+        padding: 50px;
+        margin-top: -10px;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .landpage{
+        margin-top: -10px;
+        margin-bottom: 15px;
+        padding: 0px;
+       display: flex;
+       flex-direction: column;
+       clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 98%);
+    }
+    .landpage .landpage-left {
+        padding: 51px;
+    }
+
+    .landpage .landpage-left h2{
+        font-size: 35px;
+    }
+
+    .landpage .landpage-left P{
+        font-size: 15px;
+    }
+
+    .landpage .landpage-left button{
+        margin-top: 15px;
+        width: 170px;
+    }
+
+    .landpage .landpage-right{
+        padding: 15px;
+        margin-top: -40px;
+    }
+
+    .landpage .landpage-right img{
+        width: 100%;
+    }
+
+    .work h1{
+        font-size: 50px;
+    }
+
+    .work-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .work-container .images{
+        margin: 20px;
+        padding: 0px;
+    }
+
+    .work-container .images img{
+        width: 50vh;
+    }
+
+
+    .menu{
+        position: relative;
+        top:700px;
+    }
+
+
+    .menu-card{
+        display: grid;
+        grid-template-columns: 0.5fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "b-1"
+        "b-2 "
+        "b-3"
+        "b-4"
+        "b-5"
+        "b-6";
+        grid-gap:20px;
+        padding: 20px;
+    }
+    
+}
